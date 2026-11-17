@@ -21,7 +21,7 @@ C/C++ will be used for final embedded implementation.
 - [ ] 2 Vehicle automatic interestion crossing without stopping. This is a first proof of concept before meeting with professor to define solution for 3 vehicle crossing.
 
 # Two Car Intersection Coordination
-![V2V coordination compared with stop and yield][intersection_comparison.gif]
+![V2V coordination compared with stop and yield](intersection_comparison.gif)
 
 Two simulated vehicles cross an intersection using ideal V2V coodination or stop and yield. With coordination, the yielding vehicle adjusts it approach speed and crosses without stopping
 
