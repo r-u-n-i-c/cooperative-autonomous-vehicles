@@ -232,6 +232,5 @@ for ax in axes:
 # focus on the intersection area
 axes[1].set_xlim(0, 5)
 axes[1].set_ylim(-2.1, 1.2)
-
 plt.tight_layout()
 plt.show()
