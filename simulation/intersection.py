@@ -44,7 +44,7 @@ car1_controller = PIController(
 car2_controller = PIController(
     kp=5.0,
     ki=2.0,
-    max_acceleration=car1.max_acceleration
+    max_acceleration=car2.max_acceleration
 )
 
 # init controllers to balance drag while cruising

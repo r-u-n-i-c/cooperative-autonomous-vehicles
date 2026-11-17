@@ -19,3 +19,14 @@ C/C++ will be used for final embedded implementation.
 - [ ] 3 Vehicles. Car 2 follows Car 1 using leader position and velocity, and Car 3 follows Car 2 by maintaining fixed distance
 - [ ] Include braking comparison for different leader brake message hops at 5 ms, 10 ms, 20 ms, and 50 ms
 - [ ] 2 Vehicle automatic interestion crossing without stopping. This is a first proof of concept before meeting with professor to define solution for 3 vehicle crossing.
+
+# Two Car Intersection Coordination
+![V2V coordination compared with stop and yield][intersection_comparison.gif]
+
+Two simulated vehicles cross an intersection using ideal V2V coodination or stop and yield. With coordination, the yielding vehicle adjusts it approach speed and crosses without stopping
+
+In this scenario coordination reduces completion time by 0.40 seconds. The simulation assumes ideal state sharing and constant speed for the priority vehicle.
+
+### Speed Comparison
+
+![Car 2 speed with V2V coordination versus stop-and-yield](intersection_speed_comparison.png)
